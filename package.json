@@ -56,10 +56,11 @@
         "@jupyterlab/notebook": "^4.3.5",
         "axe-core": "^4.10.3",
         "axios": "^1.8.2",
+        "tesseract.js": "^6.0.0",
         "yarn": "^1.22.22"
     },
     "devDependencies": {
-        "@jupyterlab/builder": "^3.6.8",
+        "@jupyterlab/builder": "^4.3.4",
         "@types/json-schema": "^7.0.11",
         "@types/react": "^18.0.26",
         "@types/react-addons-linked-state-mixin": "^0.14.22",

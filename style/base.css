@@ -245,3 +245,32 @@
 .jp-level4 {
     margin-left: 60px; /* Adds indentation */
 }
+
+.cell-nav-notif {
+    margin: 5px;
+    margin-right: 5px;
+    margin-left: 7px;
+    flex-shrink: 1;
+    background-color: #A1A1A1;
+    font-weight: bold;
+    color: black;
+}
+
+.cell-nav-notif-dropdown {
+    display: none;
+    margin-left:10px;
+    margin-right:10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.cell-nav-notif-dismiss {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 75px;
+}
