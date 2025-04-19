@@ -1,11 +1,19 @@
-# a11y_checker
+# jupyterlab-a11y-checker
 
 *A successor repository that will soon replace [jupyterlab-a11y-checker repository](https://github.com/berkeley-dsep-infra/jupyterlab-a11y-checker).*
 
-This tool performs accessibility checks on Jupyter notebooks (on JupyterHub) using the [axe-core](https://github.com/dequelabs/axe-core) engine as well as custom detection algorithms to align with WCAG guidelines. The following are accessibility rules that our extension enforces.
+Jupyterlab-a11y-checker is a jupyterLab extension performs accessibility checks on Jupyter Notebooks (on JupyterHub), leveraging the [axe-core engine](https://github.com/dequelabs/axe-core) and custom detection algorithms to align with WCAG 2.0 AA guidelines. It enables authors to identify accessibility issues in their notebooks and provides actionable suggestions to fix them.
 
-We also utilize a Large Language Model to suggest fixes to these issues. We use ollama in JupyterHub so that no user data is transferred to third parties (we will release the specifics later).
+To simplify the remediation process, we integrate a Large Language Model (LLM) for generating recommendations. Using Ollama's mistral model, all processing is done locally on JupyterHub, ensuring user data privacy (details on this implementation will be shared in future releases).
 
+
+### Installation
+You can install the extension directly via pip:
+
+```bash
+pip install jupyterlab-a11y-checker
+
+Find the package on PyPI [here](https://pypi.org/project/jupyterlab-a11y-checker/).
 
 ## Image
 
@@ -63,4 +71,8 @@ We also utilize a Large Language Model to suggest fixes to these issues. We use 
 
 
 ![UI of a11y_checker](./readme_img.png)
+
+### Contributions Welcome
+
+We’re building this tool for the community, and we’d love your help! Whether it’s adding new accessibility checks, or refining the fix suggestions, your contributions can help this project make a broader impact.
 
